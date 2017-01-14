@@ -175,11 +175,16 @@ public class PoiReadExcel {
 	}
 
 	public static String checkStatus(String time) {
-		String m1 = "6:00:00";
+//		String m1 = "6:00:00";
+//		String m2 = "8:00:00";
+//		String n1 = "11:55:00";
+//		String n2 = "13:30:00";
+//		String a = "17:30:00";
+		String m1 = "4:00:00";
 		String m2 = "8:00:00";
-		String n1 = "11:55:00";
-		String n2 = "13:30:00";
-		String a = "17:30:00";
+		String n1 = "12:00:00";
+		String n2 = "13:00:00";
+		String a = "17:00:00";
 		String sta = "";
 		if (DBUtil.compare(time, m1) > 0 && DBUtil.compare(time, m2) <= 0)
 			sta = "ÔçÉÏÕý³£";
